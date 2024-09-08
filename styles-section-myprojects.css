@@ -1,0 +1,92 @@
+/* Sección de proyectos */
+.projects {
+    padding: 2rem 1rem;
+    text-align: center;
+    background-color: #111827;
+    color: white;
+}
+
+.my-projects-title h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.projects-group-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+/* Estilos para el enlace de proyecto */
+.project-card {
+    background-color: #020918;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    text-decoration: none; /* Remueve el subrayado de los enlaces */
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Asegura que las imágenes y contenido interno del enlace no se vean afectados por el comportamiento del enlace */
+.project-card img {
+    pointer-events: none; /* Previene que la imagen sea un enlace clicable individualmente */
+}
+
+.project-image {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    height: 300px;
+}
+
+.project-card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.technologies-used {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+/* Estilos de los íconos de tecnologías */
+.tech-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1rem;
+    color: white;
+}
+
+.tech-item i {
+    font-size: 2rem;
+    color: white;
+}
+
+.tech-item span {
+    font-size: 1rem;
+    color: white;
+}
+
+/* Responsivo para pantallas grandes */
+@media (min-width: 768px) {
+    .projects-group-container {
+        justify-content: space-between;
+    }
+
+    .project-card {
+        width: calc(33.333% - 1rem);
+    }
+}

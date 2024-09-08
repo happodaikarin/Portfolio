@@ -1,0 +1,96 @@
+/* Estilos para la sección home */
+section.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 1rem;
+    text-align: center;
+    height: 100%;
+    margin-top: 100px;
+
+}
+
+section.home img {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 1.5rem;
+}
+
+.container-description-home {
+    max-width: 900px;
+}
+
+.container-description-home h1 {
+    font-size: 1.9rem;
+    margin-bottom: 1rem;
+    color: black;
+}
+
+.container-description-home p {
+    font-size: 1rem;
+    color: black;
+}
+
+/* Estilos para los botones en mobile first */
+.home-buttons-container {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.button-home {
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+.button-home:hover {
+    background-color: #00039c;
+}
+
+.flag-icon {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.flag-icon:hover {
+    transform: scale(1.1);
+}
+
+@media (min-width: 768px) {
+    section.home {
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        text-align: left;
+    }
+
+    section.home img {
+        width: 320px;
+        height: auto;
+        margin-right: 2rem;
+    }
+
+    .container-description-home h1 {
+        font-size: 3.5rem;
+    }
+
+    .container-description-home p {
+        font-size: 1.6rem;
+    }
+
+    /* Ajustes para botones en pantallas grandes */
+    .home-buttons-container {
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 1.5rem;
+    }
+}

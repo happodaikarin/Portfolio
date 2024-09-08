@@ -1,0 +1,105 @@
+/* Estilos generales de la sección */
+.section-education {
+    padding: 2rem 1rem;
+    background-color: #ffffff;
+    text-align: center;
+
+}
+
+.section-education h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #111827;
+}
+
+/* Contenedor de las tarjetas de educación */
+.education-container {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 2rem;
+    align-items: center;
+
+}
+
+/* Tarjetas de educación */
+.education-card {
+    background-color: #111827;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    width: 100%;
+    max-width: 600px;
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.education-card:hover {
+    transform: translateY(-5px);
+}
+
+.education-card h3 {
+    font-size: 1.6rem;
+    color: white;
+    margin-bottom: 0.5rem;
+}
+
+.education-card p {
+    font-size: 1rem;
+    color: white;
+    margin-bottom: 0.5rem;
+}
+
+.education-card a {
+    color: #ff4757;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.education-card a:hover {
+    text-decoration: underline;
+}
+
+/* Alterna la posición de las tarjetas */
+.education-card:nth-child(even) {
+    align-self: flex-end;
+}
+
+.education-card:nth-child(odd) {
+    align-self: flex-start;
+}
+
+/* Estilos responsivos */
+@media (min-width: 768px) {
+
+    .section-education{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .education-container {
+        gap: 3rem;
+        width: 1000px;
+    }
+
+    .section-education h2 {
+        font-size: 3rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .education-card {
+        max-width: 500px;
+        display: flex;
+        flex-direction: column-reverse;
+        height: auto;
+    }
+
+    .education-card p, .education-card h3 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}

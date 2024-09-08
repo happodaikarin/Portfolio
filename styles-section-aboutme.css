@@ -1,0 +1,48 @@
+.aboutme {
+    padding: 2rem 1rem;
+    background-color: #111827;
+    height: 100%;
+    overflow: scroll;
+}
+
+.aboutme h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.aboutme-content {
+    max-width: 100%;
+    margin: 0 auto;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: white;
+}
+
+.aboutme-content p {
+    margin-bottom: 1.5rem;
+}
+
+/* Media Queries para pantallas más grandes */
+@media (min-width: 768px) {
+    .aboutme {
+        display: flex;
+        flex-direction: column;
+        padding: 3rem 2rem;
+        text-align: left;
+    }
+
+    .aboutme h2 {
+        font-size: 2.5rem;
+    }
+
+    .aboutme-content {
+        font-size: 1.2rem;
+        line-height: 1.8;
+    }
+
+    .aboutme-content p {
+        margin-bottom: 2rem;
+        font-size: 1.6rem;;
+    }
+}

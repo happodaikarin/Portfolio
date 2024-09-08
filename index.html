@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Devicon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
+    <link rel="stylesheet" href="styles-global.css">
+    <link rel="stylesheet" href="styles-navbar.css">
+    <link rel="stylesheet" href="styles-home.css">
+    <link rel="stylesheet" href="styles-section-aboutme.css">
+    <link rel="stylesheet" href="styles-section-skills.css">
+    <link rel="stylesheet" href="styles-section-myprojects.css">
+    <link rel="stylesheet" href="styles-section-educations.css">
+    <link rel="stylesheet" href="styles-section-contactme.css">
+    <link rel="stylesheet" href="styles-section-footer.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="menu-icon" id="menu-icon">
+                &#9776;
+            </div>
+            <ul class="menu" id="menu">
+                <li class="close-icon" id="close-icon">&times;</li>
+                <li><a href="#aboutme">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+                <!-- Banderas para cambiar el idioma -->
+                <li>
+                    <a href="#" id="change-lang-en">
+                        <img src="https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg"
+                            alt="English" class="flag-icon">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" id="change-lang-es">
+                        <img src="https://upload.wikimedia.org/wikipedia/en/9/9a/Flag_of_Spain.svg" alt="Español"
+                            class="flag-icon">
+                    </a>
+                </li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <section class="home">
+        <div class="profile-image-container">
+            <img src="images/porfile.png" alt="Profile image">
+        </div>
+
+        <div class="container-description-home">
+            <h1>Hi I'm Ramses</h1>
+            <p>
+                I am passionate about software development, although so far, my computer has been my only employer.
+                I have mastered the art of debugging my own errors and am looking for an opportunity to prove that
+                talent doesn't need previous experience. Who needs a work history when you have a great attitude and a
+                desire to learn?
+            </p>
+
+            <div class="home-buttons-container">
+                <a href="#contact" class="button-home">Contact me</a>
+                <a href="#" class="button-home">Download CV</a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="aboutme" id="aboutme">
+        <h2>About Me</h2>
+
+        <div class="aboutme-content">
+            <p>
+                Hi, I'm a systems engineering. I haven't worked as a software developer
+                yet, but I'm eager to start. I've spent my university years bartending, balancing cocktail mixing with
+                coding.
+            </p>
+            <p>
+                I'm persistent and always open to learning from others. I can code in multiple languages, even though I
+                haven't had the chance to prove it professionally yet. If you're concerned about my experience, don't
+                be—I’m great at researching and finding solutions.
+            </p>
+            <p>
+                If you need someone who can make a mojito while debugging, I’m your guy!
+            </p>
+        </div>
+    </section>
+    <section class="Skills" id="skills">
+        <div class="my-skills-title">
+            <h2>My Skills</h2>
+        </div>
+        <div class="skills-group-container">
+            <!-- Back-End Skills -->
+            <div class="skills-container skills-backend-container">
+                <i class="fas fa-server skills-img"></i> <!-- Icono Back-End -->
+                <h3>Back-End</h3>
+                <hr />
+                <div class="skills-icons-container">
+                    <div class="skill-item"><i class="devicon-java-plain"></i><span>Java</span></div>
+                    <div class="skill-item"><i class="devicon-spring-plain"></i><span>Spring Boot</span></div>
+                    <div class="skill-item"><i class="devicon-mysql-plain"></i><span>MySQL</span></div>
+                    <div class="skill-item"><i class="devicon-spring-plain"></i><span>Spring Security</span></div>
+                    <div class="skill-item"><i class="devicon-python-plain"></i><span>Python</span></div>
+                    <div class="skill-item"><i class="devicon-flask-plain"></i><span>Flask</span></div>
+                    <div class="skill-item"><i class="devicon-mongodb-plain"></i><span>MongoDB</span></div>
+                    <div class="skill-item"><i class="devicon-nodejs-plain"></i><span>Node.js</span></div>
+                    <div class="skill-item"><i class="devicon-express-original"></i><span>Express</span></div>
+                    <div class="skill-item"><i class="devicon-neo4j-plain"></i><span>Neo4j</span></div>
+                </div>
+            </div>
+
+            <!-- Front-End Skills -->
+            <div class="skills-container skills-frontend-container">
+                <i class="fas fa-laptop-code skills-img"></i> <!-- Icono Front-End -->
+                <h3>Front-End</h3>
+                <hr />
+                <div class="skills-icons-container">
+                    <div class="skill-item"><i class="devicon-html5-plain"></i><span>HTML5</span></div>
+                    <div class="skill-item"><i class="devicon-css3-plain"></i><span>CSS3</span></div>
+                    <div class="skill-item"><i class="devicon-javascript-plain"></i><span>JavaScript</span></div>
+                    <div class="skill-item"><i class="devicon-react-original"></i><span>React</span></div>
+                    <div class="skill-item"><i class="devicon-figma-plain"></i><span>Figma</span></div>
+                    <div class="skill-item"><i class="devicon-tailwindcss-plain"></i><span>Tailwind CSS</span></div>
+                    <div class="skill-item"><i class="devicon-sass-original"></i><span>Sass</span></div>
+                </div>
+            </div>
+
+            <!-- Tools -->
+            <div class="skills-container skills-tools-container">
+                <i class="fas fa-tools skills-img"></i> <!-- Icono Tools -->
+                <h3>Tools</h3>
+                <hr />
+                <div class="skills-icons-container">
+                    <div class="skill-item"><i class="devicon-git-plain"></i><span>Git</span></div>
+                    <div class="skill-item"><i class="devicon-github-original"></i><span>GitHub</span></div>
+                    <div class="skill-item"><i class="devicon-docker-plain"></i><span>Docker</span></div>
+                    <div class="skill-item"><i class="devicon-postman-plain"></i><span>Postman</span></div>
+                    <div class="skill-item"><i class="devicon-nginx-original"></i><span>Nginx</span></div>
+                    <div class="skill-item"><i class="devicon-visualstudio-plain"></i><span>VS Code</span></div>
+                    <div class="skill-item"><i class="fas fa-file-excel"></i><span>Excel</span></div>
+                    <div class="skill-item"><i class="devicon-intellij-plain"></i><span>IntelliJ IDEA</span></div>
+                    <div class="skill-item"><i class="devicon-gimp-plain"></i><span>Gimp</span></div>
+                    <div class="skill-item"><i class="devicon-heroku-original"></i><span>Heroku</span></div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="projects" id="projects">
+        <div class="my-projects-title">
+            <h2>My Projects</h2>
+        </div>
+
+        <div class="projects-group-container">
+            <!-- Proyecto 1 -->
+            <a href="https://github.com/tuUsuario/weather-app" target="_blank" class="project-card">
+                <img src="images/wealthProject.png" alt="Project 1" class="project-image">
+                <h3>Weather App</h3>
+                <div class="technologies-used">
+                    <div class="tech-item"><i class="devicon-java-plain"></i><span>Java</span></div>
+                    <div class="tech-item"><i class="devicon-swing-plain"></i><span>Java Swing</span></div>
+                    <div class="tech-item"><i class="devicon-html5-plain"></i><span>HTML</span></div>
+                </div>
+            </a>
+
+            <!-- Proyecto 2 -->
+             <a href="https://github.com/happodaikarin/ProyectoFinal" target="_blank" class="project-card">
+                <img src="images/HomePageCurtomer.png" alt="Project 2" class="project-image">
+                <h3>Coffee Business - Recommender Systems</h3>
+                <div class="technologies-used">
+                    <div class="tech-item"><i class="devicon-html5-plain"></i><span>HTML</span></div>
+                    <div class="tech-item"><i class="devicon-css3-plain"></i><span>CSS</span></div>
+                    <div class="tech-item"><i class="devicon-javascript-plain"></i><span>JavaScript</span></div>
+                    <div class="tech-item"><i class="devicon-java-plain"></i><span>Java</span></div>
+                    <div class="tech-item"><i class="devicon-react-original"></i><span>React</span></div>
+                    <div class="tech-item"><i class="devicon-python-plain"></i><span>Python</span></div>
+                    <div class="tech-item"><i class="devicon-flask-plain"></i><span>Flask</span></div>
+                    <div class="tech-item"><i class="devicon-nodejs-plain"></i><span>Node.js</span></div>
+                    <div class="tech-item"><i class="devicon-neo4j-plain"></i><span>Neo4j</span></div>
+                    <div class="tech-item"><i class="devicon-mysql-plain"></i><span>MySQL</span></div>
+                    <div class="tech-item"><i class="devicon-tailwindcss-plain"></i><span>Tailwind CSS</span></div>
+                </div>
+            </a>
+
+
+            <!-- Proyecto 3 -->
+            <a href="https://github.com/happodaikarin/JavaFiles/tree/main/ejerciciosJava/out/production/ejerciciosJava" target="_blank" class="project-card">
+                <img src="images/SortingVisualizer.png" alt="Project 3" class="project-image">
+                <h3>Sorting Visualizer</h3>
+                <div class="technologies-used">
+                    <div class="tech-item"><i class="devicon-java-plain"></i><span>Java</span></div>
+                    <div class="tech-item"><i class="devicon-swing-plain"></i><span>Java Swing</span></div>
+                    <div class="tech-item"><i class="devicon-html5-plain"></i><span>HTML</span></div>
+                </div>
+            </a>
+            
+            <a href="https://github.com/happodaikarin/JavaFiles/tree/main/ejerciciosJava/out/production/ejerciciosJava" target="_blank" class="project-card">
+                <img src="images/cronometro.png" alt="Project 3" class="project-image">
+                <h3>Chronometer</h3>
+                <div class="technologies-used">
+                    <div class="tech-item"><i class="devicon-java-plain"></i><span>Java</span></div>
+                    <div class="tech-item"><i class="devicon-swing-plain"></i><span>Java Swing</span></div>
+                    <div class="tech-item"><i class="devicon-html5-plain"></i><span>HTML</span></div>
+                </div>
+            </a>
+
+            <a href="https://github.com/tuUsuario/weather-app" target="_blank" class="project-card">
+                <img src="images/montecarloAlgoritm.png" alt="Project 3" class="project-image">
+                <h3>Montecarlo Algorithm</h3>
+                <div class="technologies-used">
+                    <div class="tech-item"><i class="devicon-python-plain"></i><span>Python</span></div>
+                    <div class="tech-item"><i class="devicon-matplotlib-plain"></i><span>Matplotlib</span></div>
+                </div>
+            </a>
+            
+
+            <a href="https://github.com/tuUsuario/weather-app" target="_blank" class="project-card">
+                <img src="images/editorTexto.png" alt="Project 3" class="project-image">
+                <h3>Text Editor</h3>
+                <div class="technologies-used">
+                    <div class="tech-item"><i class="devicon-java-plain"></i><span>Java</span></div>
+                    <div class="tech-item"><i class="devicon-swing-plain"></i><span>Java Swing</span></div>
+                    <div class="tech-item"><i class="devicon-html5-plain"></i><span>HTML</span></div>
+                </div>
+            </a>
+
+            <a href="https://github.com/happodaikarin/birdClassificationRN.git" target="_blank" class="project-card">
+                <img src="images/birdPrediction.png" alt="Project 3" class="project-image">
+                <h3>Bird Prediction - ML Model</h3>
+                <div class="technologies-used">
+                    <div class="tech-item"><i class="devicon-python-plain"></i><span>Python</span></div>
+                    <div class="tech-item"><i class="devicon-flask-plain"></i><span>Flask</span></div>
+                    <div class="tech-item"><i class="devicon-html5-plain"></i><span>HTML</span></div>
+                    <div class="tech-item"><i class="devicon-css3-plain"></i><span>CSS</span></div>
+                    <div class="tech-item"><i class="devicon-react-original"></i><span>React</span></div>
+                    <div class="tech-item"><i class="devicon-google-plain"></i><span>Google Colab</span></div>
+                    <div class="tech-item"><i class="devicon-tensorflow-original"></i><span>TensorFlow</span></div>
+                    <div class="tech-item"><i class="devicon-pandas-original"></i><span>Pandas</span></div>
+                </div>
+            </a>
+            
+            <a href="https://github.com/tuUsuario/weather-app" target="_blank" class="project-card">
+                <img src="images/calculator.png" alt="Project 3" class="project-image">
+                <h3>Basic Calculator</h3>
+                <div class="technologies-used">
+
+                    <div class="tech-item"><i class="devicon-java-plain"></i><span>Java</span></div>
+                    <div class="tech-item"><i class="devicon-javafx-plain"></i><span>Java Swing</span></div>
+                    <div class="tech-item"><i class="devicon-html5-plain"></i><span>HTML</span></div>
+                </div>
+            </div>
+        </a>
+    </section>
+    <div class="section section-education" id="education">
+        <h2>Education</h2>
+        <div class="education-container">
+
+            <div class="education-card">
+                <h3>Ingeniería de Sistemas y Computación</h3>
+                <a href="https://tulua.univalle.edu.co/" target="_blank">
+                    <p>Universidad del Valle</p>
+                </a>
+                <p>Tuluá - Valle del Cauca - Colombia</p>
+                <p>2018 - 2024 (Completed)</p>
+            </div>
+
+            <div class="education-card">
+                <h3>Técnologia en Automatización e Instrumentación</h3>
+                <a href="https://www.istmbr.edu.ec/carreras/" target="_blank">
+                    <p>Instituto Tecnológico Martha Bucaram de Roldos</p>
+                </a>
+                <p>Nueva Loja - Sucumbíos - Ecuador</p>
+                <p>2016 - 2017 (Incomplete)</p>
+            </div>
+
+            <div class="education-card">
+                <h3>Bachillerato en Ciencias Generales</h3>
+                <a href="https://www.facebook.com/oscarromerofyaecuador/?locale=es_LA" target="_blank">
+                    <p>Institución Educativa Mons. Oscar A. Romero</p>
+                </a>
+                <p>Joya de los Sachas - Orellana - Ecuador</p>
+                <p>2009 - 2015 (Completed)</p>
+            </div>
+
+            <div class="education-card">
+                <h3>Educación primaria</h3>
+                <a href="https://www.cali.gov.co/educacion/" target="_blank">
+                    <p>Instituto Educativo Pance</p>
+                </a>
+                <p>Cali - Valle del Cauca - Colombia</p>
+                <p>2004 - 2009 (Completed)</p>
+            </div>
+        </div>
+    </div>
+
+    <section class="contact" id="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-container">
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="user_name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="user_email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Contact Me</h3>
+                <p>Email: <a href="mailto:rambandan@gmail.com">rambandan@gmail.com</a></p>
+                <p>Phone: +57 315 6160 499</p>
+            </div>
+
+            <div class="footer-section">
+                <h3>Follow Me</h3>
+                <div class="social-icons">
+                    <a href="https://github.com/happodaikarin" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="www.linkedin.com/in/ramsés-de-jesús-hidalgo-guevara-96637a152" target="_blank"><i
+                            class="fab fa-linkedin"></i></a>
+                    <a href="https://twitter.com/tuusuario" target="_blank"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#aboutme">About Me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2024 Ramsés Hidalgo. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+
+
+    <script src="script.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init('mYQo_VmC1MM8WeWww');
+        })();
+    </script>
+</body>
+
+</html>

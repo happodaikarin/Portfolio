@@ -1,0 +1,90 @@
+/* Estilos para el footer */
+.footer {
+    background-color: black;
+    color: white;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+
+.footer-section {
+    margin-bottom: 1rem;
+}
+
+.footer-section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.footer-section p, .footer-section ul, .footer-section a {
+    font-size: 1rem;
+    color: #ccc;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
+
+.footer-section a:hover {
+    color: white;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-section ul li a {
+    color: #ccc;
+}
+
+.footer-section ul li a:hover {
+    color: white;
+}
+
+.social-icons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.social-icons a {
+    font-size: 2rem;
+    color: #ccc;
+}
+
+.social-icons a:hover {
+    color: #ff4757;
+}
+
+/* Parte inferior del footer */
+.footer-bottom {
+    border-top: 1px solid #444;
+    padding-top: 1rem;
+    margin-top: 1rem;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 1rem;
+    color: #ccc;
+}
+
+/* Responsivo para pantallas grandes */
+@media (min-width: 768px) {
+    .footer-container {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+}
