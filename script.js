@@ -83,7 +83,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-//EMAIL
+//EMAILL
 
 
 document.getElementById('contact-form').addEventListener('submit', function(event) {
