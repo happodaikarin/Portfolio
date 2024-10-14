@@ -8,7 +8,6 @@ document.getElementById('close-icon').addEventListener('click', function() {
     menu.classList.remove('show');
 });
 
-
 document.addEventListener("DOMContentLoaded", function () {
     const langEn = document.getElementById("change-lang-en");
     const langEs = document.getElementById("change-lang-es");
@@ -21,11 +20,11 @@ document.addEventListener("DOMContentLoaded", function () {
             education: "Education",
             projects: "Projects",
             contact: "Contact Me",
-            intro: "Hi I'm Ramses",
-            description: "I am passionate about software development, although so far, my computer has been my only employer. I have mastered the art of debugging my own errors and am looking for an opportunity to prove that talent doesn't need previous experience. Who needs a work history when you have a great attitude and a desire to learn?",
-            aboutMeText: "Hi, I'm a systems engineering student in my final semester. I haven't worked as a software developer yet, but I'm eager to start. I've spent my university years bartending, balancing cocktail mixing with coding.",
-            aboutMeText2: "I'm persistent and always open to learning from others. I can code in multiple languages, even though I haven't had the chance to prove it professionally yet. If you're concerned about my experience, don't be—I’m great at researching and finding solutions.",
-            aboutMeText3: "If you need someone who can make a mojito while debugging, I’m your guy!",
+            intro: "Hello, I'm Ramses",
+            description: "I am a Systems Engineer with a passion for software development and problem-solving.",
+            aboutMeText: "As a Systems Engineer, I have developed a deep understanding of software development and technology. My hands-on experience with various tools and languages has prepared me to contribute to real-world projects. I am highly motivated and ready to take on new challenges in a professional setting.",
+            aboutMeText2: "I have a solid understanding of programming in multiple languages and frameworks, and I am highly capable of researching, learning, and applying new technologies as needed. My perseverance and ability to adapt ensure that I can tackle any challenge with confidence and commitment.",
+            aboutMeText3: "I am eager to join a dynamic team where I can grow, contribute, and develop my professional career.",
             mySkills: "My Skills",
             educationSection: "Education",
             contactSection: "Contact Me",
@@ -39,17 +38,16 @@ document.addEventListener("DOMContentLoaded", function () {
             projects: "Proyectos",
             contact: "Contáctame",
             intro: "Hola, soy Ramses",
-            description: "Soy apasionado por el desarrollo de software, aunque hasta ahora, mi computadora ha sido mi único empleador. He dominado el arte de depurar mis propios errores y estoy buscando una oportunidad para demostrar que el talento no necesita experiencia previa. ¿Quién necesita una experiencia laboral cuando tienes una gran actitud y ganas de aprender?",
-            aboutMeText: "Hola, soy un estudiante de ingeniería de sistemas en mi último semestre. Aún no he trabajado como desarrollador de software, pero estoy ansioso por comenzar. He pasado mis años universitarios trabajando como bartender, equilibrando la mezcla de cócteles con la codificación.",
-            aboutMeText2: "Soy persistente y siempre estoy abierto a aprender de los demás. Puedo programar en varios lenguajes, aunque no he tenido la oportunidad de demostrarlo profesionalmente. Si te preocupa mi experiencia, no lo hagas, ¡soy excelente investigando y encontrando soluciones!",
-            aboutMeText3: "Si necesitas a alguien que pueda hacer un mojito mientras depura errores, ¡soy tu persona!",
+            description: "Soy Ingeniero en Sistemas con pasión por el desarrollo de software y la resolución de problemas.",
+            aboutMeText: "Como Ingeniero de Sistemas, he desarrollado una profunda comprensión del desarrollo de software y la tecnología. Mi experiencia práctica con diversas herramientas y lenguajes me ha preparado para contribuir en proyectos del mundo real. Estoy altamente motivado y listo para asumir nuevos desafíos en un entorno profesional.",
+            aboutMeText2: "Tengo una comprensión sólida de la programación en varios lenguajes y marcos, y soy altamente capaz de investigar, aprender y aplicar nuevas tecnologías según sea necesario. Mi perseverancia y capacidad de adaptación aseguran que puedo abordar cualquier desafío con confianza y compromiso.",
+            aboutMeText3: "Estoy deseoso de unirme a un equipo dinámico donde pueda crecer, contribuir y desarrollar mi carrera profesional.",
             mySkills: "Mis Habilidades",
             educationSection: "Educación",
             contactSection: "Contáctame",
             sendButton: "Enviar Mensaje",
             projectTitle: "Mis Proyectos"
         }
-        
     };
 
     // Cambia el idioma según la selección
@@ -85,8 +83,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-
-//EMAIL
+//EMAILL
 
 
 document.getElementById('contact-form').addEventListener('submit', function(event) {
