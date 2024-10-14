@@ -71,10 +71,11 @@ section.home img {
         flex-direction: row-reverse;
         justify-content: space-around;
         text-align: left;
+        height: 100vh;
     }
 
     section.home img {
-        width: 320px;
+        width: 220px;
         height: auto;
         margin-right: 2rem;
     }
